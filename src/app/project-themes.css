@@ -1,0 +1,9 @@
+.project-visual.commerce { --system-bg: #a5d9d6; --system-accent: #087f83; background: var(--system-bg); box-shadow: inset 0 0 90px rgba(8, 127, 131, .24); }
+.project-visual.unity { --system-bg: #aaa0e0; --system-accent: #5c43a5; background: var(--system-bg); box-shadow: inset 0 0 90px rgba(92, 67, 165, .24); }
+.project-visual.maze { --system-bg: #d8b36f; --system-accent: #9c4b2f; background: var(--system-bg); box-shadow: inset 0 0 90px rgba(156, 75, 47, .24); }
+.project-visual.voice { --system-bg: #e5a3b8; --system-accent: #a32968; background: var(--system-bg); box-shadow: inset 0 0 90px rgba(163, 41, 104, .2); }
+.project-visual.commerce .project-grid, .project-visual.unity .project-grid, .project-visual.maze .project-grid, .project-visual.voice .project-grid { background-image: linear-gradient(var(--system-accent) 1px, transparent 1px), linear-gradient(90deg, var(--system-accent) 1px, transparent 1px); opacity: .22; }
+.project-visual.commerce .core-ring, .project-visual.unity .core-ring, .project-visual.maze .core-ring, .project-visual.voice .core-ring { border-color: var(--system-accent); opacity: .78; }
+.project-visual.commerce .core-ring::after, .project-visual.unity .core-ring::after, .project-visual.maze .core-ring::after, .project-visual.voice .core-ring::after { border-color: var(--system-accent); opacity: .62; }
+.project-visual.commerce .core-dot, .project-visual.unity .core-dot, .project-visual.maze .core-dot, .project-visual.voice .core-dot { background: var(--system-accent); box-shadow: 0 0 0 18px rgba(11, 14, 20, .12), 0 0 25px var(--system-accent); }
+.project-visual.commerce .visual-label, .project-visual.commerce .visual-coordinate, .project-visual.unity .visual-label, .project-visual.unity .visual-coordinate, .project-visual.maze .visual-label, .project-visual.maze .visual-coordinate, .project-visual.voice .visual-label, .project-visual.voice .visual-coordinate { color: var(--system-accent); }
